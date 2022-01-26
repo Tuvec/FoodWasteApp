@@ -1,0 +1,98 @@
+hmtl {
+    background: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+#formContainer {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid plum;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10% 10%;
+    background-color: rgb(247, 223, 247);
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#addButton {
+    background-color: #c5a9c9;
+    border: 1px solid #9c63a3;
+}
+
+#editButton {
+    width: 200px;
+}
+
+#errorMessage {
+    color: red;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#message {
+    color: green;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.block-btn {
+    display: block;
+    width: 20%;
+    height: 20%;
+    border: none;
+    background-color: #1fc085;
+    padding: 15px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.content {
+    height: 9.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-inputtext {
+    width: 100% !important;
+}
+
+.p-dropdown {
+    width: 100% !important;
+    border: 1px solid white !important;
+}
+
+.p-calendar {
+    width: 100% !important;
+}
+
+.center {
+    width: 380px;
+    padding: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1.5px solid white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}

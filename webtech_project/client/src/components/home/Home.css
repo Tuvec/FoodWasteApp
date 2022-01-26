@@ -1,0 +1,34 @@
+body {
+    background-color: #FFDAB9 !important;
+}
+
+.createAccount button,
+.signIn button {
+    width: 100%;
+    letter-spacing: 0.5px;
+}
+
+.createAccount small:hover {
+    cursor: pointer;
+}
+
+#errorMessage {
+    color: red;
+}
+
+#message {
+    color: green;
+}
+
+.center {
+    width: 370px;
+    padding: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
