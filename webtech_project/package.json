@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Raluuu/FoodWasteApp/issues"
+    "url": "https://github.com/Tuvec/FoodWasteApp/issues"
   },
-  "homepage": "https://github.com/Raluuu/FoodWasteApp",
+  "homepage": "https://github.com/Tuvec/FoodWasteApp",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
